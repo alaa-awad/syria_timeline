@@ -21,9 +21,9 @@ export default function Navbar() {
 
           {/* Logo Branding */}
           <div className="flex items-center space-x-3 rtl:space-x-reverse">
-            <div className="flex items-center justify-center w-10 h-10 rounded-lg bg-gradient-to-br from-syrian-green-500 to-syrian-green-700 shadow-md shadow-syrian-green-500/20 text-xl">
+            {/* <div className="flex items-center justify-center w-10 h-10 rounded-lg bg-gradient-to-br from-syrian-green-500 to-syrian-green-700 shadow-md shadow-syrian-green-500/20 text-xl">
               🇸🇾
-            </div>
+            </div> */}
             <div className="flex flex-col">
               <span className="text-lg font-bold tracking-tight text-white select-none">
                 {t('siteName')}

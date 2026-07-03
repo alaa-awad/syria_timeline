@@ -89,7 +89,7 @@ export default function App() {
             {/* Left/Right Branding depending on RTL */}
             <div className="text-center md:text-start space-y-1">
               <h4 className="text-sm font-bold text-slate-300 flex items-center justify-center md:justify-start gap-2">
-                <span>🇸🇾</span>
+                {/* <span>🇸🇾</span> */}
                 <span>{t('siteName')}</span>
               </h4>
               <p className="text-xs text-slate-500 font-medium">
@@ -106,7 +106,7 @@ export default function App() {
             </div>
 
             {/* Social Icons */}
-            <div className="flex items-center gap-4 text-slate-400 text-sm">
+            {/* <div className="flex items-center gap-4 text-slate-400 text-sm">
               <a href={siteSettings.socialLinks.twitter} target="_blank" rel="noreferrer" className="hover:text-syrian-green-400 transition-colors">
                 <FaTwitter />
               </a>
@@ -116,7 +116,7 @@ export default function App() {
               <a href={siteSettings.socialLinks.github} target="_blank" rel="noreferrer" className="hover:text-syrian-green-400 transition-colors">
                 <FaGithub />
               </a>
-            </div>
+            </div> */}
 
           </div>
 
